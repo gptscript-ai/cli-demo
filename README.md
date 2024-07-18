@@ -1,7 +1,7 @@
 # cli-demo
-A demo of using GPTScript to interact with various CLIs throug a chat interface
+A demo of using GPTScript to interact with various CLIs through a chat interface
 
-This GPTScript will launch a chat assistant that's integrated with two common developer CLIs: `gh` (the GitHub cli) and `kubectl` (the Kubernetes cli).
+This GPTScript will launch a chat assistant that's integrated with two common developer CLIs: `gh` (the GitHub CLI) and `kubectl` (the Kubernetes CLI).
 
 This **DOES NOT** install or configure the CLIs. You must do that yourself.
 

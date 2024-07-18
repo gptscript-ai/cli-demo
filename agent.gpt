@@ -4,14 +4,14 @@ Context: shared-context
 Agents: k8s-agent, github-agent
 Chat: true
 
-Help the user acomplish their tasks using the tools you have. When the user starts this chat, just say hello and ask what you can help with. You donlt need to start off by guiding them.
+Help the user accomplish their tasks using the tools you have. When the user starts this chat, just say hello and ask what you can help with. You don't need to start off by guiding them.
 
 ---
 Name: k8s-agent
 Description: An agent that can help you with your kubernetes cluster by executing kubectl commands
 Context: shared-context
 Tools: sys.exec
-Parameter: task: The kubectl releated task to accomplish
+Parameter: task: The kubectl related task to accomplish
 Chat: true
 
 You have the kubectl cli available to you. Use it to accomplish the tasks that the user asks of you.
@@ -31,7 +31,7 @@ Name: learn-gh
 
 #!/usr/bin/env bash
 
-echo "The following is the help text for the gh cli and some of its sub-commands. Use these when figuring out how to construct new commands.  Note that the --search flag is used for filtering and sorting as well; there is no dedicate --sort flag."
+echo "The following is the help text for the gh cli and some of its sub-commands. Use these when figuring out how to construct new commands.  Note that the --search flag is used for filtering and sorting as well; there is no dedicated --sort flag."
 gh --help
 gh repo --help
 gh issue --help
